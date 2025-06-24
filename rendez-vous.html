@@ -5,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rendez-vous</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Veve_Erzulie.svg') no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="akey.html">Rendez-vous</a>
@@ -17,10 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="akey.html">Akey</a>
+            <a class="nav-link" href="akey.html">Akey</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="rendez-vous.html">Rendez-vous</a>
+            <a class="nav-link active" aria-current="page" href="rendez-vous.html">Rendez-vous</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="kiyes-nou-ye.html">Kiyès nou ye</a>
@@ -30,8 +35,10 @@
       </div>
     </div>
   </nav>
-
-  <!-- Modal -->
+  <div class="container text-center mt-5">
+    <h1>Byenveni sou paj Rendez-vous la</h1>
+  </div>
+  <!-- Modal identique à index.html -->
   <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -40,7 +47,6 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <!-- Simple form for demonstration -->
           <form>
             <div class="mb-3">
               <label for="email" class="form-label">Imèl</label>
@@ -57,7 +63,6 @@
       </div>
     </div>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
